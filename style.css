@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(194, 227, 237);
+  color: #fff;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0.25rem auto;
+  color: rgb(213, 155, 228);
+}
+
+.form-control {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.movie-label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(239, 121, 48);
+}
+
+.movie {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  color: cadetblue;
+}
+
+.legend-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: #f9bbbbf6;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: 400;
+}
+
+.seat-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.screen {
+  width: 21rem;
+  height: 6.5rem;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: #605e5e;
+}
+
+.message {
+  font-size: 1.5rem;
+  color: coral;
+}
+
+#seats-count,
+#total-price {
+  color: rgb(122, 128, 244);
+  font-weight: 900;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.seat {
+  height: 2rem;
+  width: 2rem;
+  background-color: #8a8686;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.row .seat {
+  cursor: pointer;
+}
+
+.seat.reserved {
+  background-color: #fff;
+  cursor: default;
+}
+
+.seat.selected {
+  background-color: rgb(235, 228, 125);
+}

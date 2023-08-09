@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seat Booking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="title">Select your Tickets</h1>
+
+    <div class="movie-container">
+      <div class="form-control">
+        <label for="movie" class="movie-label">Pick a Movie :</label>
+        <select id="movie" class="movie">
+          <option value="100">Movie 1</option>
+          <option value="150">Movie 2</option>
+          <option value="200">Movie 3</option>
+          <option value="250">Movie 4</option>
+        </select>
+      </div>
+    </div>
+    <div class="legend-container">
+      <div class="seat-container">
+        <div class="seat"></div>
+        <span>N/A</span>
+      </div>
+
+      <div class="seat-container">
+        <div class="seat selected"></div>
+        <span>Selected</span>
+      </div>
+
+      <div class="seat-container">
+        <div class="seat reserved"></div>
+        <span>Reserved</span>
+      </div>
+    </div>
+    <div class="screen-container">
+      <div class="screen"></div>
+      <div class="seats-container">
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat reserved"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat reserved"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat reserved"></div>
+          <div class="seat reserved"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-container">
+      <p class="message">
+        you have selected <span id="seats-count">0</span> for a total of ₹
+        <span id="total-price">0</span>
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
