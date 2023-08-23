@@ -16,12 +16,15 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  background-image: url(./img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
   font-size: 3rem;
   margin: 0.25rem auto;
-  color: rgb(213, 155, 228);
+  color: rgb(227, 134, 41);
 }
 
 .form-control {
@@ -70,13 +73,13 @@ body {
 }
 
 .message {
-  font-size: 1.5rem;
-  color: coral;
+  font-size: 2rem;
+  color: rgb(194, 55, 4);
 }
 
 #seats-count,
 #total-price {
-  color: rgb(122, 128, 244);
+  color: rgb(72, 80, 241);
   font-weight: 900;
 }
 
@@ -89,7 +92,7 @@ body {
 .seat {
   height: 2rem;
   width: 2rem;
-  background-color: #8a8686;
+  background-color: #6a6060;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 }
